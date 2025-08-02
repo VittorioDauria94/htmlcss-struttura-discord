@@ -1,3 +1,16 @@
+/* Custom Properties */
+:root {
+
+    /* backgorund colors */
+    --bg-light-blu: lightblue;
+
+    /* Margin */
+    --mr-sm: 5px;
+    --mr-md: 10px;
+    --mr-lg: 15px;
+
+}
+
 /* css reset */
 * {
     margin: 0;
@@ -18,4 +31,22 @@ img {
 
 .flex {
     display: flex;
+}
+
+/* Header */
+header {
+    height: 80px;
+    background-color: var(--bg-light-blu);
+    justify-content: space-between;
+
+}
+
+.header-content {
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    margin: var(--mr-sm);
 }
