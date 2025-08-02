@@ -12,6 +12,15 @@
     --mr-md: 10px;
     --mr-lg: 15px;
 
+    /* Padding */
+    --pd-top-btm-md: 25px 0;
+    --pd-top-btm-lg: 50px 0;
+    --pd-xs: 5px;
+    --pd-sm: 10px;
+    --pd-md: 15px;
+    --pd-lg: 20px;
+    --pd-xl: 25px;
+
 }
 
 /* css reset */
@@ -44,11 +53,10 @@ li {
 #header {
     height: 80px;
     background-color: var(--bg-light-blu);
-    padding: 25px 0;
+    padding: var(--pd-top-btm-md);
 }
 
 .header-content {
-    justify-content: space-between;
     align-items: center;
     background-color: var(--bg-orange);
 }
@@ -64,28 +72,27 @@ img,
     justify-content: center;
 }
 
-ul li {
+.navbar-link li {
     margin: var(--mr-sm);
 }
 
 .button {
-    justify-content: flex-end;
+    text-align: right;
 }
 
 /* Hero section */
 
 #hero {
     background-color: var(--bg-blu);
-    padding: 50px 0;
-
-    /* debug */
-    min-height: 200px;
+    padding: var(--pd-top-btm-lg);
+    height: 300px;
 }
 
 .hero-content {
     background-color: var(--bg-pink);
     text-align: center;
-
-    /* debug */
-
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
 }
+
