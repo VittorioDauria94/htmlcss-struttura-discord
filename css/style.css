@@ -63,6 +63,12 @@ li {
 .header-content {
     align-items: center;
     background-color: var(--bg-orange);
+
+}
+
+/* debug */
+.header-content>* {
+    border: 1px dashed black;
 }
 
 img,
@@ -154,5 +160,33 @@ img,
     background-color: var(--bg-black);
 
     /* debug */
+    height: 600px;
+}
+
+.top-footer {
+    padding: var(--pd-top-btm-md);
+    /* border-bottom: 1px solid var(--bg-white); */
+
+    /* debug */
     height: 500px;
+}
+
+.footer-left {
+    flex-basis: 30%;
+    background-color: var(--bg-orange);
+}
+
+.footer-right {
+    flex-basis: 70%;
+    background-color: var(--bg-blu);
+
+    /* debug */
+    border: 1px dashed white;
+}
+
+.footer-right nav {
+    flex-basis: 25%;
+
+    /* debug */
+    border: 1px dashed white;
 }
