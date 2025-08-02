@@ -6,6 +6,10 @@
     --bg-orange: orange;
     --bg-blu: blue;
     --bg-pink: pink;
+    --bg-white: white;
+    --bg-gray: rgb(226, 220, 220);
+    --bg-green: green;
+    --bg-black: rgb(34, 38, 41);
 
     /* Margin */
     --mr-sm: 5px;
@@ -96,3 +100,59 @@ img,
     margin: 0 auto;
 }
 
+/* main content section */
+
+.section-bg-white {
+    background-color: var(--bg-white);
+    padding: var(--pd-top-btm-md);
+
+    /* debug */
+    height: 300px;
+}
+
+.section-bg-gray {
+    background-color: var(--bg-gray);
+    padding: var(--pd-top-btm-md);
+
+    /* debug */
+    height: 300px;
+}
+
+.section-bg-white>div,
+.section-bg-gray>div {
+    height: 100%;
+}
+
+.block-text {
+    flex-basis: 60%;
+    background-color: var(--bg-light-blu);
+}
+
+.block-img {
+    flex-basis: 40%;
+    background-color: var(--bg-pink);
+}
+
+/* action section */
+.section-action {
+    background-color: var(--bg-gray);
+    padding: var(--pd-top-btm-md);
+
+    /* debug */
+    height: 500px;
+}
+
+.block-action {
+    background-color: var(--bg-green);
+    height: 100%;
+    margin: 0 auto;
+}
+
+/* footer section */
+
+.footer {
+    background-color: var(--bg-black);
+
+    /* debug */
+    height: 500px;
+}
