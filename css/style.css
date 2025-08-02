@@ -3,6 +3,7 @@
 
     /* backgorund colors */
     --bg-light-blu: lightblue;
+    --bg-orange: orange;
 
     /* Margin */
     --mr-sm: 5px;
@@ -37,16 +38,30 @@ img {
 header {
     height: 80px;
     background-color: var(--bg-light-blu);
-    justify-content: space-between;
-
+    padding: 25px 0;
 }
 
 .header-content {
-    height: 100%;
     justify-content: space-between;
     align-items: center;
+    background-color: var(--bg-orange);
 }
 
-nav ul {
+img,
+.button {
+    width: 25%;
+    
+}
+
+.navbar {
+    width: 50%;
+    justify-content: center;
+}
+
+ul li {
     margin: var(--mr-sm);
+}
+
+.button {
+    justify-content: flex-end;
 }
